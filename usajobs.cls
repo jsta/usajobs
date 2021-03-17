@@ -41,3 +41,5 @@
 \definecolor{rulegray}{gray}{0.4}
 
 \usepackage{lipsum}
+
+\usepackage[hidelinks]{hyperref}
