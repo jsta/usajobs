@@ -1,5 +1,8 @@
 
-all: resume_usajobs.pdf
+all: resume-usajobs.pdf
 
-resume_usajobs.pdf: resume_usajobs.tex usajobs.cls
+resume-usajobs.pdf: resume-usajobs.tex usajobs.cls
 	pdflatex $<
+
+clean:
+	-@rm resume-usajobs.pdf
